@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Le cours sur le HTML</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Vos animaux préférés</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Retourner à l'accueil</a>
+        </nav>
+
+        <section>
+            <h2>Formulaire d'enregistrement</h2>
+            
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" required>
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" required>
+                <br>
+                <br>
+                <label for="naissance">Date de naissance:</label>
+                <input type="date" id="naissance">
+                <br>
+                <br>
+                <label for="sexehomme">Etes-vous un homme ?</label>
+                <input type="radio" id="sexehomme" name="sexe">
+                <br>
+                <label for="sexefemme">Ou une femme ?</label>
+                <input type="radio" id="sexefemme" name="sexe">
+                <br>    
+                <br>
+                <label for="password">Votre mot de passe:</label>
+                <input type="password" id="password" required>
+                <br>
+                <input type="submit" value="S'enregistrer">
+            </form>
+
+            <br>
+            <p>Vous avez deja un compte? <a href="connexion.html">Se connecter</a></p>
+            <br>
+
+        </section>
+
+        <footer>
+            <p>&copy; NosChatsEtChiens 2024. Tous droits réservé</p>
+        </footer>
+    </body>
+</html>
